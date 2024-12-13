@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #dbd2bc;
+}
+
+header {
+    background-color: transparent;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 52px;
+}
+
+header .left span {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+header .right ul {
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+header .right ul li {
+    margin: 0 20px;
+}
+
+main button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #dbd2bc;
+    cursor: pointer;
+    border: 1px solid #cac7be;
+    transition: all 0.3s;
+    box-shadow: 4px 4px 9px #dfd8c8, -4px -4px 9px #dfd8c8;
+}
+
+main button:active {
+    color: #666;
+    box-shadow: inset 3px 3px 9px #dfd8c8, inset -4px -4px 12px #dddcda;
+}
+
+main {
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .breeds img {
+    height: 400px;
+    width: auto;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+main .breeds {
+    text-align: center;
+}
+
+main .breeds h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
